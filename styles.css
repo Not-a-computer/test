@@ -1,3 +1,7 @@
+* {
+    outline: 2px solid red;
+}
+
 .box {
     height: 100px;
     width: 100px;
