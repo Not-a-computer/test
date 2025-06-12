@@ -1,10 +1,29 @@
 * {
-    outline: 2px solid red;
+    
+    
+}
+
+html, body{
+    width: 2480px;
+    height: 3508px;
+    margin: auto;
+}
+
+#outline{
+    outline: 8px solid black;
+    width: 2380px;
+    height: 3408px;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
 }
 
 .box {
-    height: 100px;
-    width: 100px;
     background-color: rgb(66, 211, 21);
-    align-self: auto;
+    flex: 1;
+    height: 200px;
 }
